@@ -8,11 +8,6 @@ use sdl2::pixels::Color;
 use sdl2::rect::Rect;
 
 use std::time::Duration;
-//
-// Snippet Load png
-// let _img_ref = init(InitFlag::PNG).unwrap();
-// let texture_creator = canvas.texture_creator();
-// let texture = texture_creator.load_texture("resources/loaded.png")?;
 
 const WIDTH: u32 = 640;
 const HEIGHT: u32 = 480;

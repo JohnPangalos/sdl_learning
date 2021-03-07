@@ -12,11 +12,11 @@ struct LTexture<'a> {
 }
 
 impl LTexture<'_> {
-    pub fn new<'a>(width: i32, height: i32, texture: &mut Texture<'_>) -> Self {
+    pub fn new<'a>(width: i32, height: i32, texture: Texture) -> Self {
         Self {
             width: width,
             height: height,
-            texture: *texture,
+            texture: texture,
         }
     }
 }

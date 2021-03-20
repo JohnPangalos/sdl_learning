@@ -1,9 +1,8 @@
 extern crate sdl2;
 use crate::sdl2::image::LoadTexture;
-use sdl2::render::{Texture, TextureCreator};
-// use sdl2::surface::{Surface, SurfaceRef};
 use sdl2::pixels::Color;
 use sdl2::rect::Rect;
+use sdl2::render::{Texture, TextureCreator};
 use sdl2::video::WindowContext;
 
 use sdl2::event::Event;
